@@ -94,7 +94,7 @@ public class DirectedGraphTest
       System.out.println();
       for (int i = 0; i < MAX_GRAPH_CAPACITY; i++)
       {
-         System.out.println("Path: " + randInt + " <-> " + i + ": " + graph.getPath(randInt, i));
+         System.out.println("Path: " + randInt + " -> " + i + ": " + graph.getPath(randInt, i));
       }
       assertTrue(true);
    }
