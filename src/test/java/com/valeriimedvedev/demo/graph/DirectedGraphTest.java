@@ -48,7 +48,7 @@ public class DirectedGraphTest
       {
          for (int j = 0; j < MAX_GRAPH_CAPACITY; j++)
          {
-            if (i != j && (getRandomNumber(1, 100) <= 20)) // ~ 20% probability
+            if (i != j && (getRandomNumber(1, 100) <= 10)) // ~ 10% probability
             {
                graph.addEdge(i, j);
             }
